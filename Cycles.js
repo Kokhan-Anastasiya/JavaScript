@@ -133,12 +133,24 @@ for(let i = 0; i <= str1.length; i++) {
 } 
 console.log(count)
 
-//17. Найти общее количество гласных букв (a,o,e,u,i) в строке str1.
+//17. Найти общее количество гласных букв (a,o,e,u,i,y) в строке str2.
+let  str2 = 'Now I am studying programming on JS';
+let count = 0;
+for (let i = 0; i <= str2.length; i++) {
+  if (str2[i] === 'a' || str2[i] === 'o' || str2[i] === 'e' || str2[i] === 'u' || str2[i] === 'i' || str2[i] === 'y')
+  count++
+}
+console.log(count)
 
 
 
-//18. Дан массив arr = [3, 7, 4, 9, 2, 10, 1, 17, 6, 23, 5, 13];
+//18. Дан массив arr5 = [3, 7, 4, 9, 2, 10, 1, 17, 6, 23, 5, 13];
 // Найти разность между максимальным и минимальным элементом массива.
+ let arr5 = [3, 7, 4, 9, 2, 10, 1, 17, 6, 23, 5, 13];
+ let max = Math.max(...arr5);
+ let min = Math.min(...arr5);
+console.log(max-min)
+
 
 
 

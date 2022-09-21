@@ -61,12 +61,7 @@ console.log(positiveToNegative(5))
 //  "Even" для четных чисел  или  "Odd" для нечетных чисел.
 
 function evenOrOdd (x) {
-    
-    if (x % 2 === 0) {
-        return 'Even'
-    } else {
-        return 'Odd'
-    }
+    return x % 2 === 0 ? 'Even' : 'Odd'
 }
 console.log(evenOrOdd(2))
 
@@ -83,15 +78,7 @@ console.log(firstSymbol('str'))
 //  Если число равно 0, возвращается 0.
 
 function num (x) {
-   
-    if (x === 0) {
-        return 0;
-    }
-    if (x < 0) {
-        return x;
-    } else {
-        return -x
-    }
+   return (x === 0) ? 0 : (x < 0) ? x : -x
 } 
 console.log(num(5))
 
